@@ -11,6 +11,11 @@
 		52EFA9D32BCF9ECD0048C662 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFA9D22BCF9ECD0048C662 /* ContentView.swift */; };
 		52EFA9D52BCF9ECE0048C662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EFA9D42BCF9ECE0048C662 /* Assets.xcassets */; };
 		52EFA9D82BCF9ECF0048C662 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EFA9D72BCF9ECF0048C662 /* Preview Assets.xcassets */; };
+		52EFA9E22BCFA06F0048C662 /* ListCoffeShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFA9E12BCFA06F0048C662 /* ListCoffeShop.swift */; };
+		52EFA9E52BCFA26D0048C662 /* CoffeShopRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFA9E42BCFA26D0048C662 /* CoffeShopRow.swift */; };
+		52EFA9E72BCFAB310048C662 /* HeaderViewDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFA9E62BCFAB310048C662 /* HeaderViewDetail.swift */; };
+		52EFA9E92BCFB21F0048C662 /* CoffeShopDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFA9E82BCFB21F0048C662 /* CoffeShopDetail.swift */; };
+		52EFA9EC2BCFB4B50048C662 /* RandomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EFA9EB2BCFB4B50048C662 /* RandomColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		52EFA9D22BCF9ECD0048C662 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		52EFA9D42BCF9ECE0048C662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52EFA9D72BCF9ECF0048C662 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52EFA9E12BCFA06F0048C662 /* ListCoffeShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoffeShop.swift; sourceTree = "<group>"; };
+		52EFA9E42BCFA26D0048C662 /* CoffeShopRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeShopRow.swift; sourceTree = "<group>"; };
+		52EFA9E62BCFAB310048C662 /* HeaderViewDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewDetail.swift; sourceTree = "<group>"; };
+		52EFA9E82BCFB21F0048C662 /* CoffeShopDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeShopDetail.swift; sourceTree = "<group>"; };
+		52EFA9EB2BCFB4B50048C662 /* RandomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,10 @@
 		52EFA9CF2BCF9ECD0048C662 /* CoffeShop */ = {
 			isa = PBXGroup;
 			children = (
-				52EFA9D02BCF9ECD0048C662 /* CoffeShopApp.swift */,
-				52EFA9D22BCF9ECD0048C662 /* ContentView.swift */,
+				52EFA9EA2BCFB49C0048C662 /* Utility */,
+				52EFA9E02BCFA03F0048C662 /* Model */,
+				52EFA9DE2BCF9F700048C662 /* App */,
+				52EFA9DF2BCFA02B0048C662 /* View */,
 				52EFA9D42BCF9ECE0048C662 /* Assets.xcassets */,
 				52EFA9D62BCF9ECF0048C662 /* Preview Content */,
 			);
@@ -65,6 +77,49 @@
 				52EFA9D72BCF9ECF0048C662 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52EFA9DE2BCF9F700048C662 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				52EFA9D02BCF9ECD0048C662 /* CoffeShopApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		52EFA9DF2BCFA02B0048C662 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52EFA9E32BCFA2070048C662 /* Component */,
+				52EFA9D22BCF9ECD0048C662 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52EFA9E02BCFA03F0048C662 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52EFA9E12BCFA06F0048C662 /* ListCoffeShop.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52EFA9E32BCFA2070048C662 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				52EFA9E42BCFA26D0048C662 /* CoffeShopRow.swift */,
+				52EFA9E62BCFAB310048C662 /* HeaderViewDetail.swift */,
+				52EFA9E82BCFB21F0048C662 /* CoffeShopDetail.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		52EFA9EA2BCFB49C0048C662 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				52EFA9EB2BCFB4B50048C662 /* RandomColor.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +193,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				52EFA9D32BCF9ECD0048C662 /* ContentView.swift in Sources */,
+				52EFA9E72BCFAB310048C662 /* HeaderViewDetail.swift in Sources */,
 				52EFA9D12BCF9ECD0048C662 /* CoffeShopApp.swift in Sources */,
+				52EFA9E52BCFA26D0048C662 /* CoffeShopRow.swift in Sources */,
+				52EFA9E92BCFB21F0048C662 /* CoffeShopDetail.swift in Sources */,
+				52EFA9E22BCFA06F0048C662 /* ListCoffeShop.swift in Sources */,
+				52EFA9EC2BCFB4B50048C662 /* RandomColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
